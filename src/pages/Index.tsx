@@ -81,11 +81,15 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header onContactClick={openDialog} />
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-hero py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center text-primary-foreground">
+            <img 
+              src="/lovable-uploads/e5070a58-ed6c-45c6-9ff7-c792c22e15af.png" 
+              alt="OPTI Consultoria em TI" 
+              className="h-16 w-auto mx-auto mb-6"
+            />
             <Badge className="mb-6 bg-white/20 text-white border-white/30">
               Consultoria TechLead Especializada
             </Badge>
