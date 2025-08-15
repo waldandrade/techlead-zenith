@@ -96,19 +96,10 @@ const Index = () => {
               Consultoria técnica especializada para acelerar o crescimento do seu produto digital, 
               desde a concepção até a consolidação no mercado.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex justify-center">
               <Button 
                 size="lg" 
                 className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-3"
-                onClick={() => openDialog('contratacao')}
-              >
-                <Mail className="w-5 h-5 mr-2" />
-                Contratar Agora
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-3"
                 onClick={() => openDialog('diagnostico')}
               >
                 <MessageCircle className="w-5 h-5 mr-2" />
@@ -196,23 +187,14 @@ const Index = () => {
           <p className="text-xl text-primary-foreground/90 mb-8">
             Entre em contato e descubra como podemos ajudar a transformar seus desafios em oportunidades
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button 
               size="lg" 
               className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-3"
-              onClick={() => openDialog('contratacao')}
-            >
-              <Mail className="w-5 h-5 mr-2" />
-              Contratar Consultoria
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-3"
               onClick={() => openDialog('diagnostico')}
             >
               <MessageCircle className="w-5 h-5 mr-2" />
-              Solicitar Diagnóstico
+              Diagnóstico Gratuito
             </Button>
           </div>
         </div>

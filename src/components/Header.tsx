@@ -24,20 +24,12 @@ export const Header = ({ onContactClick }: HeaderProps) => {
           
           <div className="flex items-center gap-3">
             <Button 
-              variant="outline" 
               size="sm"
               onClick={() => onContactClick('diagnostico')}
-              className="hidden sm:flex"
+              className="bg-primary text-primary-foreground hover:bg-primary/90"
             >
               <MessageCircle className="w-4 h-4 mr-2" />
-              Diagnóstico
-            </Button>
-            <Button 
-              size="sm"
-              onClick={() => onContactClick('contratacao')}
-            >
-              <Mail className="w-4 h-4 mr-2" />
-              Contratar
+              Diagnóstico Gratuito
             </Button>
           </div>
         </div>

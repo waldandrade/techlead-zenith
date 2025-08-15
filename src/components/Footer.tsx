@@ -37,21 +37,12 @@ export const Footer = ({ onContactClick }: FooterProps) => {
             <h4 className="font-semibold text-foreground mb-4">Fale Conosco</h4>
             <div className="space-y-3">
               <Button 
-                variant="outline" 
                 size="sm" 
-                className="w-full justify-start"
+                className="w-full justify-start bg-primary text-primary-foreground hover:bg-primary/90"
                 onClick={() => onContactClick('diagnostico')}
               >
                 <MessageCircle className="w-4 h-4 mr-2" />
-                Solicitar Diagnóstico
-              </Button>
-              <Button 
-                size="sm" 
-                className="w-full justify-start"
-                onClick={() => onContactClick('contratacao')}
-              >
-                <Mail className="w-4 h-4 mr-2" />
-                Contratar Consultoria
+                Diagnóstico Gratuito
               </Button>
             </div>
           </div>
