@@ -5,6 +5,8 @@ import { Badge } from "@/components/ui/badge";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { ServiceCard } from "@/components/ServiceCard";
 import { ContactForm } from "@/components/ContactForm";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import { 
   Rocket, 
   Target, 
@@ -79,6 +81,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Header onContactClick={openDialog} />
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-hero py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -224,6 +227,8 @@ const Index = () => {
           />
         </DialogContent>
       </Dialog>
+      
+      <Footer onContactClick={openDialog} />
     </div>
   );
 };
