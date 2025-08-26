@@ -44,9 +44,7 @@ const Index = () => {
           <div className="text-center text-primary-foreground">
             
             
-            <Badge className="mb-8 bg-white/10 text-white border-white/20 hover:bg-white/20 transition-colors">
-              Consultoria TechLead Especializada
-            </Badge>
+            
             
             <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight tracking-tight">
               Uma jornada para resultados{" "}
