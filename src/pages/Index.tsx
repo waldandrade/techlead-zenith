@@ -42,6 +42,8 @@ const Index = () => {
       <section className="relative pt-32 pb-20 px-6 bg-gradient-hero overflow-hidden">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center text-primary-foreground">
+            
+            
             <Badge className="mb-8 bg-white/10 text-white border-white/20 hover:bg-white/20 transition-colors">
               Consultoria TechLead Especializada
             </Badge>
