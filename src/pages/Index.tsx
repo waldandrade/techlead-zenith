@@ -1,13 +1,12 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Card, CardContent } from "@/components/ui/card";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { ServiceCard } from "@/components/ServiceCard";
 import { ContactForm } from "@/components/ContactForm";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { Rocket, Target, Code, Users, Settings, Zap, CheckCircle, MessageCircle, Mail, ArrowRight, Star } from "lucide-react";
+import { Rocket, Target, Code, CheckCircle, MessageCircle } from "lucide-react";
 const Index = () => {
   const [dialogOpen, setDialogOpen] = useState(false);
   const [formType, setFormType] = useState<'contratacao' | 'diagnostico'>('contratacao');
@@ -39,20 +38,16 @@ const Index = () => {
       <Header onContactClick={openDialog} />
       
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 px-6 bg-gradient-hero overflow-hidden">
+      <section className="relative pt-40 pb-20 px-6 bg-gradient-hero overflow-hidden">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center text-primary-foreground">
-            
-            
-            
-            
             <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight tracking-tight">
-              Uma jornada para resultados{" "}
-              <span className="block">de alto nível.</span>
+              Seu time funcionando{" "}
+              <span className="block">com agilidade e segurança.</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-12 text-white/80 max-w-3xl mx-auto font-light leading-relaxed">
-              E toda jornada exige direção estratégica para transformar sua visão tecnológica em realidade.
+              Só ideia e resiliência não basta. Com estratégia e rotina traremos resultados sem perder flaxibilidade e controle.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
