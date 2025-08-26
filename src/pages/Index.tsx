@@ -42,8 +42,8 @@ const Index = () => {
         <div className="container mx-auto max-w-5xl">
           <div className="text-center text-primary-foreground">
             <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight tracking-tight">
-              Seu time funcionando{" "}
-              <span className="block">com agilidade e segurança.</span>
+              Dia-a-dia tech{" "}
+              <span className="block">ágil e confiável.</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-12 text-white/80 max-w-3xl mx-auto font-light leading-relaxed">
